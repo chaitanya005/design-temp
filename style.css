@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #404040;
+}
+
+p {
+  font-size: 16px;
+  word-break: break-all;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body h1,
+.box-header {
+  font-size: 120%;
+  color: #4c4e61;
+}
+
+.box-header {
+  font-weight: 600;
+  font-size: 130%;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.title {
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.sub-title {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.title,
+.sub-title {
+  font-size: 230%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 50px 35px;
+}
+
+.box {
+  max-width: 350px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box-container {
+  margin: 20px 25px 0px 25px;
+}
+
+.box-container p {
+  margin: 5px 0 30px 0;
+  font-size: 80%;
+  line-height: 25px;
+}
+
+.middle-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 25px;
+}
+
+.icon-container {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.icon-container .icon-img {
+  width: 60px;
+}
+
+.light-green {
+  border-top: 5px solid #64e1dc;
+}
+
+.red-box {
+  border-top: 5px solid #e63950;
+}
+
+.yellow-box {
+  border-top: 5px solid #ff9100;
+}
+
+.blue-box {
+  border-top: 5px solid #549ef2;
+}
